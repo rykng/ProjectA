@@ -12,5 +12,12 @@ public class PigTest {
 		pig.oink();
 		assertTrue("Pig Oinked", true);
 	}
+	
+	@Test
+	public void testPigSing() {
+		Pig pig = new Pig();
+		pig.sing();
+		assertTrue("Pig Sing", true);
+	}
 
 }
