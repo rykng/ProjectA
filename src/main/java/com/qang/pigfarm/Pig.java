@@ -20,7 +20,7 @@ public class Pig {
 	}
 	
 	public void oink() {
-		System.out.println("Oink Oink.");
+		System.out.println("Oink.");
 	}
 	
 	public void squeal() {
@@ -28,7 +28,7 @@ public class Pig {
 	}
 	
 	public void sing() {
-		System.out.println("");
+		System.out.println("Oink Oink Oink Oink Oink");
 	}
 	
 	public void eat(Food food) {
