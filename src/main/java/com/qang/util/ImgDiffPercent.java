@@ -282,7 +282,7 @@ public class ImgDiffPercent  {
 
 		    double n = width1 * height1 * 3;
 		    double p = diff / n / 255.0;
-		    //System.out.println("diff percent: " + (p * 100.0));
+		    System.out.println("diff percent: " + (p * 100.0));
 		    
 		    return (p * 100.0);
 
