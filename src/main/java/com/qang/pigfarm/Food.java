@@ -2,25 +2,25 @@ package com.qang.pigfarm;
 
 public class Food {
 	
-	private String m_foodtype;
+	private String m_name;
 	private int m_foodpower;
 	
     public Food() {
-    	m_foodtype = "beets";
+    	m_name = "undocumented";
     	m_foodpower = 1;
     }
     
     public Food(String foodtype, int power) {
-    	m_foodtype = foodtype;
+    	m_name = foodtype;
     	m_foodpower = power;
     }
     
     public String toString() {
-    	return m_foodtype;
+    	return m_name;
     }
     
-    public String getFoodType() {
-    	return m_foodtype;
+    public String getFoodName() {
+    	return m_name;
     }
     
     public int getPower() {
