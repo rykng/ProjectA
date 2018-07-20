@@ -1,20 +1,19 @@
 package com.qang.pigfarm;
 
-public class Pig {
+public class Pig extends GameCharacter{
 	
-	private int m_health;
 	private int m_weight;
 	private String m_breed;
 	
 	public Pig() {
-		m_health = 10;
+		super("Pig");
 		m_weight = 1;
 		m_breed = "hog";
 		
 	}
 	
 	public Pig(int health, int weight, String breed ) {
-		m_health = health;
+		super("Pig");
 		m_weight = weight;
 		m_breed = breed;
 	}
