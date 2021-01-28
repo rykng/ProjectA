@@ -7,7 +7,7 @@ Project A
 
 ## Prerequisites
 ### Eclipse
-I assume you know why to setup eclipse.  Please go [here](http://www.eclipse.org) to download
+I assume you know how to setup eclipse.  Please go [here](http://www.eclipse.org) to download
 ### Git
 I assume you already know how to setup git in your local machine. if not, please kindly add instructions for future members
 
